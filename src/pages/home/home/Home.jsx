@@ -3,6 +3,7 @@ import Banner from '../banner/Banner'
 import Works from '../works/Works'
 import Services from '../services/Services'
 import Brands from '../brands/Brands'
+import Feature from '../feature/Feature'
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
       <Banner />
       <Works />
       <Services />
-      <Brands/>
+      <Brands />
+      <Feature/>
     </div>
   )
 }
