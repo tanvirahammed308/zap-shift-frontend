@@ -25,11 +25,9 @@ const Brands = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Pagination,Autoplay]}
-      className="mySwiper my-5"
+      
+      modules={[Autoplay]}
+      className="mySwiper my-12"
       >
           {
               logos.map((logo, index) => (<SwiperSlide key={index}>{

@@ -23,7 +23,7 @@ const items = [
 ]
 const Feature = () => {
   return (
-      <div className='py-20 border-y border-[#03373D] border-dotted my-16 max-w-6xl mx-auto px-5 md:px-0'>
+      <div className='py-20 border-y border-[#03373D] border-dotted my-12 max-w-6xl mx-auto px-5 md:px-0'>
           <div className='space-y-10'>
               {
                   items.map((item) => (
